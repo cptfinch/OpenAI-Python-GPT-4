@@ -30,5 +30,6 @@ response = openai.ChatCompletion.create(
         {"role": "user", "content": "Where was it played?"}
     ]
 )
+test
 
 print(response)
